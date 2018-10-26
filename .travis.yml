@@ -8,4 +8,5 @@ before_install:
 - brew install git-lfs
 
 before_script:
+- git lfs install
 - git lfs pull
