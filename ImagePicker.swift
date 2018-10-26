@@ -3,6 +3,7 @@ import Photos
 class View2: UIViewController {
     
     var images:[UIImage] = []
+    var result:[Double] = []
    
     @IBOutlet weak var Image_1: UIImageView!
     
@@ -17,22 +18,16 @@ class View2: UIViewController {
         fetchPhotos()
         
         let result_test = OpenCVWrapper()
-        let result_1 = result_test.isImageBlurry(images[0])
-        let result_2 = result_test.isImageBlurry(images[1])
-        let result_3 = result_test.isImageBlurry(images[2])
-        let result_4 = result_test.isImageBlurry(images[3])
-        let result_5 = result_test.isImageBlurry(images[4])
-        let result_6 = result_test.isImageBlurry(images[5])
-        NSLog(String(result_1))
-        NSLog(String(result_2))
-        NSLog(String(result_3))
-        NSLog(String(result_4))
-        NSLog(String(result_5))
-        NSLog(String(result_6))
         
+        result.append(result_test.isImageBlurry(images[0]))
+        result.append(result_test.isImageBlurry(images[1]))
+        result.append(result_test.isImageBlurry(images[2]))
+        result.append(result_test.isImageBlurry(images[3]))
+        result.append(result_test.isImageBlurry(images[4]))
+        result.append(result_test.isImageBlurry(images[5]))
 
     }
- 
+    
     @IBAction func imageTapped(_ sender: UITapGestureRecognizer) {
         let imageView = sender.view as! UIImageView
         let newImageView = UIImageView(image: imageView.image)
