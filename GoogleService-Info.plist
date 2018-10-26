@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>784582044890-4a3hqbd6d1hm7v312b4k0688v37lraa4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.784582044890-4a3hqbd6d1hm7v312b4k0688v37lraa4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBV8I-Nx8lI4_3o7A2FrKC62dHhCARMAco</string>
+	<key>GCM_SENDER_ID</key>
+	<string>784582044890</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>cmpt275.group3.pss</string>
+	<key>PROJECT_ID</key>
+	<string>parkshuttersys</string>
+	<key>STORAGE_BUCKET</key>
+	<string>parkshuttersys.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:784582044890:ios:b63d21926cfac281</string>
+	<key>DATABASE_URL</key>
+	<string>https://parkshuttersys.firebaseio.com</string>
+</dict>
+</plist>
