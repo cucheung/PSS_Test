@@ -1,10 +1,16 @@
-//
 //  PSSUITests.swift
 //  PSSUITests
-//
-//  Created by Curtis Cheung on 2018-10-19.
-//  Copyright © 2018 CMPT275_G3. All rights reserved.
-//
+
+//  Description: UI Test Cases for PSS
+
+//  CMPT 275 Group 3 - SavePark
+//  Fall 2018
+
+//  File Created By: Curtis Cheung
+//  File Modified By: Curtis Cheung
+
+//  Changes:
+//  10/20/2018 - Added dummy XCTAssertFalse test for Travis CI
 
 import XCTest
 

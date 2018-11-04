@@ -7,22 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E49A25BACD9062674DD22A6 /* Pods_PSS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8373D82EF43D90E37589FF5 /* Pods_PSS.framework */; };
 		AF7DD4D31ED3AA28005C880E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DD4D21ED3AA28005C880E /* AppDelegate.swift */; };
 		AF7DD4D51ED3AA28005C880E /* PhotoMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DD4D41ED3AA28005C880E /* PhotoMode.swift */; };
 		AF7DD4D81ED3AA28005C880E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7DD4D61ED3AA28005C880E /* Main.storyboard */; };
 		AF7DD4DA1ED3AA28005C880E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7DD4D91ED3AA28005C880E /* Assets.xcassets */; };
 		AF7DD4DD1ED3AA28005C880E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7DD4DB1ED3AA28005C880E /* LaunchScreen.storyboard */; };
+		E0490CBF2182598200A55957 /* ProcessPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0490CBE2182598200A55957 /* ProcessPhotos.swift */; };
 		E088185321743DBD001AAE4F /* GalleryMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E088185021743DBD001AAE4F /* GalleryMode.swift */; };
 		E088185521743DBD001AAE4F /* ImagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E088185221743DBD001AAE4F /* ImagePreview.swift */; };
 		E0A3A0E72174161200774E32 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0A3A0E62174161100774E32 /* GoogleService-Info.plist */; };
-		E0AE5BE32182E611009E0B0D /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C17F992181899100669906 /* opencv2.framework */; };
-		E0C17F9B2181899100669906 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C17F992181899100669906 /* opencv2.framework */; };
-		E0C17FA121818A4F00669906 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0C17FA021818A4F00669906 /* OpenCVWrapper.mm */; };
-		E0C17FA221818A4F00669906 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0C17FA021818A4F00669906 /* OpenCVWrapper.mm */; };
-		E0C7CC5021731C8500B88962 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7CC4F21731C8400B88962 /* ImagePicker.swift */; };
+		E0AE5BE52182EE76009E0B0D /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0AE5BE42182EE76009E0B0D /* opencv2.framework */; };
+		E0AE5BE92182EEA2009E0B0D /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0AE5BE82182EEA2009E0B0D /* OpenCVWrapper.mm */; };
+		E0C7CC5021731C8500B88962 /* ImagePickerSandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7CC4F21731C8400B88962 /* ImagePickerSandbox.swift */; };
 		E0D87F73217B09100029AF28 /* PSSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D87F72217B09100029AF28 /* PSSUITests.swift */; };
 		F4D077821EDC0A91001B0881 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D077811EDC0A91001B0881 /* CameraController.swift */; };
+		F71B75231838AF7DEFF4F7A4 /* Pods_PSS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402E62AAEF701438A66B135D /* Pods_PSS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,25 +36,25 @@
 
 /* Begin PBXFileReference section */
 		2BA89D9DAE16A2462BCDDF3C /* Pods-PSS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSS/Pods-PSS.debug.xcconfig"; sourceTree = "<group>"; };
+		402E62AAEF701438A66B135D /* Pods_PSS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A179070D872019A03403C789 /* Pods-PSS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSS/Pods-PSS.release.xcconfig"; sourceTree = "<group>"; };
 		AF7DD4CF1ED3AA28005C880E /* PSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7DD4D21ED3AA28005C880E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF7DD4D41ED3AA28005C880E /* PhotoMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotoMode.swift; path = "AV Foundation/PhotoMode.swift"; sourceTree = "<group>"; };
+		AF7DD4D41ED3AA28005C880E /* PhotoMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMode.swift; sourceTree = "<group>"; };
 		AF7DD4D71ED3AA28005C880E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF7DD4D91ED3AA28005C880E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "AV Foundation/Assets.xcassets"; sourceTree = "<group>"; };
+		AF7DD4D91ED3AA28005C880E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF7DD4DC1ED3AA28005C880E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF7DD4DE1ED3AA28005C880E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8373D82EF43D90E37589FF5 /* Pods_PSS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0490CBE2182598200A55957 /* ProcessPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessPhotos.swift; sourceTree = "<group>"; };
 		E088185021743DBD001AAE4F /* GalleryMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryMode.swift; sourceTree = "<group>"; };
 		E088185221743DBD001AAE4F /* ImagePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreview.swift; sourceTree = "<group>"; };
 		E0A3A0E62174161100774E32 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E0C17F992181899100669906 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
-		E0C17F9D21818A4F00669906 /* PSS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSS-Bridging-Header.h"; sourceTree = "<group>"; };
-		E0C17F9E21818A4F00669906 /* PSSUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSSUITests-Bridging-Header.h"; sourceTree = "<group>"; };
-		E0C17F9F21818A4F00669906 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
-		E0C17FA021818A4F00669906 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
-		E0C17FA321818AA100669906 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		E0C7CC4F21731C8400B88962 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E0AE5BE42182EE76009E0B0D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		E0AE5BE62182EEA1009E0B0D /* PSS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSS-Bridging-Header.h"; sourceTree = "<group>"; };
+		E0AE5BE72182EEA2009E0B0D /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		E0AE5BE82182EEA2009E0B0D /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		E0AE5BEA2182EF56009E0B0D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E0C7CC4F21731C8400B88962 /* ImagePickerSandbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerSandbox.swift; sourceTree = "<group>"; };
 		E0D87F70217B09100029AF28 /* PSSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0D87F72217B09100029AF28 /* PSSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSSUITests.swift; sourceTree = "<group>"; };
 		E0D87F74217B09100029AF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,8 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0AE5BE32182E611009E0B0D /* opencv2.framework in Frameworks */,
-				1E49A25BACD9062674DD22A6 /* Pods_PSS.framework in Frameworks */,
+				E0AE5BE52182EE76009E0B0D /* opencv2.framework in Frameworks */,
+				F71B75231838AF7DEFF4F7A4 /* Pods_PSS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0C17F9B2181899100669906 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,8 +84,8 @@
 		2EC5AF0127BCDA3BEB012E20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E0C17F992181899100669906 /* opencv2.framework */,
-				D8373D82EF43D90E37589FF5 /* Pods_PSS.framework */,
+				E0AE5BE42182EE76009E0B0D /* opencv2.framework */,
+				402E62AAEF701438A66B135D /* Pods_PSS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,24 +102,17 @@
 		AF7DD4C61ED3AA28005C880E = {
 			isa = PBXGroup;
 			children = (
-				E0C17F9F21818A4F00669906 /* OpenCVWrapper.h */,
-				E0C17FA021818A4F00669906 /* OpenCVWrapper.mm */,
-				E0C17FA321818AA100669906 /* PrefixHeader.pch */,
-				E088185021743DBD001AAE4F /* GalleryMode.swift */,
-				E088185221743DBD001AAE4F /* ImagePreview.swift */,
-				AF7DD4D41ED3AA28005C880E /* PhotoMode.swift */,
-				F4D077811EDC0A91001B0881 /* CameraController.swift */,
 				AF7DD4D61ED3AA28005C880E /* Main.storyboard */,
-				E0C7CC4F21731C8400B88962 /* ImagePicker.swift */,
+				AF7DD4DB1ED3AA28005C880E /* LaunchScreen.storyboard */,
 				E0A3A0E62174161100774E32 /* GoogleService-Info.plist */,
-				AF7DD4D91ED3AA28005C880E /* Assets.xcassets */,
-				AF7DD4D11ED3AA28005C880E /* AV Foundation */,
+				AF7DD4DE1ED3AA28005C880E /* Info.plist */,
+				E012253A218557180030B3C8 /* OpenCV */,
+				AF7DD4D11ED3AA28005C880E /* PhotoMode */,
+				E012253B218557570030B3C8 /* GalleryMode */,
 				E0D87F71217B09100029AF28 /* PSSUITests */,
 				AF7DD4D01ED3AA28005C880E /* Products */,
 				AF445464D5C41C47C39F6431 /* Pods */,
 				2EC5AF0127BCDA3BEB012E20 /* Frameworks */,
-				E0C17F9D21818A4F00669906 /* PSS-Bridging-Header.h */,
-				E0C17F9E21818A4F00669906 /* PSSUITests-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,14 +125,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF7DD4D11ED3AA28005C880E /* AV Foundation */ = {
+		AF7DD4D11ED3AA28005C880E /* PhotoMode */ = {
 			isa = PBXGroup;
 			children = (
+				AF7DD4D41ED3AA28005C880E /* PhotoMode.swift */,
+				F4D077811EDC0A91001B0881 /* CameraController.swift */,
+				E0490CBE2182598200A55957 /* ProcessPhotos.swift */,
+				AF7DD4D91ED3AA28005C880E /* Assets.xcassets */,
 				AF7DD4D21ED3AA28005C880E /* AppDelegate.swift */,
-				AF7DD4DB1ED3AA28005C880E /* LaunchScreen.storyboard */,
-				AF7DD4DE1ED3AA28005C880E /* Info.plist */,
 			);
-			path = "AV Foundation";
+			path = PhotoMode;
+			sourceTree = "<group>";
+		};
+		E012253A218557180030B3C8 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				E0AE5BE62182EEA1009E0B0D /* PSS-Bridging-Header.h */,
+				E0AE5BEA2182EF56009E0B0D /* PrefixHeader.pch */,
+				E0AE5BE72182EEA2009E0B0D /* OpenCVWrapper.h */,
+				E0AE5BE82182EEA2009E0B0D /* OpenCVWrapper.mm */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		E012253B218557570030B3C8 /* GalleryMode */ = {
+			isa = PBXGroup;
+			children = (
+				E088185021743DBD001AAE4F /* GalleryMode.swift */,
+				E088185221743DBD001AAE4F /* ImagePreview.swift */,
+				E0C7CC4F21731C8400B88962 /* ImagePickerSandbox.swift */,
+			);
+			path = GalleryMode;
 			sourceTree = "<group>";
 		};
 		E0D87F71217B09100029AF28 /* PSSUITests */ = {
@@ -212,7 +226,6 @@
 					E0D87F6F217B09100029AF28 = {
 						CreatedOnToolsVersion = 10.0;
 						DevelopmentTeam = LW8A5954FT;
-						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AF7DD4CE1ED3AA28005C880E;
 					};
@@ -315,12 +328,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E088185321743DBD001AAE4F /* GalleryMode.swift in Sources */,
+				E0490CBF2182598200A55957 /* ProcessPhotos.swift in Sources */,
 				F4D077821EDC0A91001B0881 /* CameraController.swift in Sources */,
-				E0C17FA121818A4F00669906 /* OpenCVWrapper.mm in Sources */,
 				AF7DD4D51ED3AA28005C880E /* PhotoMode.swift in Sources */,
 				AF7DD4D31ED3AA28005C880E /* AppDelegate.swift in Sources */,
 				E088185521743DBD001AAE4F /* ImagePreview.swift in Sources */,
-				E0C7CC5021731C8500B88962 /* ImagePicker.swift in Sources */,
+				E0AE5BE92182EEA2009E0B0D /* OpenCVWrapper.mm in Sources */,
+				E0C7CC5021731C8500B88962 /* ImagePickerSandbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +342,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0C17FA221818A4F00669906 /* OpenCVWrapper.mm in Sources */,
 				E0D87F73217B09100029AF28 /* PSSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,7 +363,6 @@
 				AF7DD4D71ED3AA28005C880E /* Base */,
 			);
 			name = Main.storyboard;
-			path = "AV Foundation";
 			sourceTree = "<group>";
 		};
 		AF7DD4DB1ED3AA28005C880E /* LaunchScreen.storyboard */ = {
@@ -403,7 +415,6 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -460,7 +471,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -487,12 +497,13 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "AV Foundation/Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OpenCV/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cmpt275.group3.pss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PSS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/OpenCV/PSS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -511,12 +522,13 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "AV Foundation/Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OpenCV/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cmpt275.group3.pss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PSS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/OpenCV/PSS-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -526,16 +538,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LW8A5954FT;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = PSSUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -544,8 +551,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "Curtis-Cheung.PSSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PSSUITests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PSS;
@@ -556,16 +562,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LW8A5954FT;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = PSSUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -573,7 +574,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "Curtis-Cheung.PSSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PSSUITests-Bridging-Header.h";
+				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PSS;

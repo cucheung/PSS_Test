@@ -1,9 +1,11 @@
+//  Description: Sandbox to Test OpenCV functionality
+//  Will be removed in Release
+
 import Photos
 
 class View2: UIViewController {
     
     var images:[UIImage] = []
-    var result:[Double] = []
    
     @IBOutlet weak var Image_1: UIImageView!
     
@@ -16,18 +18,10 @@ class View2: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         fetchPhotos()
-        
-        let result_test = OpenCVWrapper()
-        
-        result.append(result_test.isImageBlurry(images[0]))
-        result.append(result_test.isImageBlurry(images[1]))
-        result.append(result_test.isImageBlurry(images[2]))
-        result.append(result_test.isImageBlurry(images[3]))
-        result.append(result_test.isImageBlurry(images[4]))
-        result.append(result_test.isImageBlurry(images[5]))
+        Image_1.image = images[0]
 
     }
-    
+ 
     @IBAction func imageTapped(_ sender: UITapGestureRecognizer) {
         let imageView = sender.view as! UIImageView
         let newImageView = UIImageView(image: imageView.image)
@@ -53,7 +47,7 @@ class View2: UIViewController {
         // Sort the images by descending creation date and fetch the first 3
         let fetchOptions = PHFetchOptions()
         fetchOptions.sortDescriptors = [NSSortDescriptor(key:"creationDate", ascending: false)]
-        fetchOptions.fetchLimit = 6
+        fetchOptions.fetchLimit = 3
         
         // Fetch the image assets
         let fetchResult: PHFetchResult = PHAsset.fetchAssets(with: PHAssetMediaType.image, options: fetchOptions)
@@ -61,7 +55,7 @@ class View2: UIViewController {
         // If the fetch result isn't empty,
         // proceed with the image request
         if fetchResult.count > 0 {
-            let totalImageCountNeeded = 6 // <-- The number of images to fetch
+            let totalImageCountNeeded = 3 // <-- The number of images to fetch
             fetchPhotoAtIndex(0, totalImageCountNeeded, fetchResult)
         }
     }
